@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "21a10bbfbe5b42ba294d",
+  "publicPath": "/static/",
+  "outputPath": "/home/work/Projects/redtail/piano-rep/frontend/build/static",
+  "assetsByChunkName": {
+    "frontend": "frontend.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "frontend.module.js",
+      "size": 6468192,
+      "chunks": [
+        "frontend"
+      ],
+      "chunkNames": [
+        "frontend"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 46945,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontend": {
+      "chunks": [
+        "frontend"
+      ],
+      "assets": [
+        "frontend.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontend": {
+      "chunks": [
+        "frontend"
+      ],
+      "assets": [
+        "frontend.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "frontend",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1665531,
+      "names": [
+        "frontend"
+      ],
+      "files": [
+        "frontend.module.js"
+      ],
+      "hash": "b9fd1cfc25312a899a9a",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 29451,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "a4fcde3b6b00d8a80c8c",
+      "siblings": [],
+      "parents": [
+        "frontend"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
